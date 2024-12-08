@@ -249,6 +249,75 @@ video{
     padding: 10px;
     font-size: 10px;
 }
+.updates{
+    height: 100vh;
+    /* background: salmon; */
+    padding: 4vh 10vh;
+    display: flex;
+    gap: 0px;
+    flex-direction: column;
+text-align: center;
+text-transform: uppercase;
+
+
+}
+.updates h1{
+    margin-bottom: 50px;
+}
+.updates .first{
+    border-top: 2px solid black;
+    /* background:rgb(5, 228, 5); */
+    height: 20%;
+    width: 100%;
+    display: flex;
+   align-items: center;
+   justify-content:center;
+    
+
+}
+.updates .last{
+    border-bottom: 2px solid black;
+}
+.updates >.first> .left{
+    padding: 0 15px;
+    padding-right: 70px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: #8c4646; */
+    height: 100%;
+}
+.updates .first .left h4{
+    text-align: left;
+}
+.updates .first .right{
+   /* background:seagreen ; */
+   width: 50%;
+    height: 100%;
+         display: flex;
+         flex-direction: column;
+         align-items: start;
+         justify-content: center;
+         padding: 0 15px;
+         
+}
+.right  h6{
+   font-size: 2vw;
+   text-transform: capitalize;
+   font-weight: 500;
+}
+
+
+.left img{
+    height: 12vh;
+    width: 12vh;
+    border-radius: 50%;
+    object-fit:cover;
+}
+.left h1{
+    text-align: left;
+}
 @media (max-width:600px){
   
 nav{
@@ -498,5 +567,80 @@ video{
     text-transform: capitalize;
 }
 
+
+.updates{
+    height: 100vh;
+    /* background: salmon; */
+    padding: 2vh 2vh;
+    display: flex;
+    gap: 0px;
+    flex-direction: column;
+text-align: center;
+text-transform: uppercase;
+
+
+}
+.updates h1{
+    margin-bottom: 5vh;
+    font-size: 5vw;
+}
+.updates .first{
+    border-top: 2px solid black;
+    /* background:rgb(5, 228, 5); */
+    height: 12%;
+    width: 100%;
+    display: flex;
+    gap: 5%;
+   align-items: center;
+   justify-content:center;
+    
+
+}
+.updates .last{
+    border-bottom: 2px solid black;
+}
+.updates >.first> .left{
+    padding: 0 10px;
+    padding-right: 5px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: #8c4646; */
+    height: 100%;
+}
+.updates .first .left h4{
+    text-align: left;
+    font-size: 2.5vw;
+}
+.updates .first .right{
+   /* background:seagreen ; */
+   width: 50%;
+    height: 100%;
+         display: flex;
+         flex-direction: column;
+         align-items: start;
+         justify-content: center;
+         padding: 0 10px;
+         
+}
+.right  h6{
+   font-size: 3vw;
+   text-transform: capitalize;
+   font-weight: 500;
+}
+
+.right p{
+    font-size: 2.5vw;
+}
+.left img{
+    height: 6vh;
+    width: 6vh;
+    border-radius: 50%;
+    object-fit:cover;
+}
+.left h1{
+    text-align: left;
+}
 
 }
